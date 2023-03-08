@@ -13,5 +13,7 @@ export async function loader({request}) {
     },
   );
   const data = await response.text();
-  return new Response(data, {headers: {'content-type': 'text/html'}});
+  return new Response(data, {
+    headers: {'content-type': 'text/html'},
+  });
 }
