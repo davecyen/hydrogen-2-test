@@ -1,6 +1,6 @@
 export async function loader({request}) {
   const response = await fetch(
-    'https://{shop}.myshopify.com/pages/' + 'about',
+    'https://hydrogen-preview.myshopify.com/pages/' + 'about',
     {
       headers: {
         // It's important to forward these headers. Otherwise, the online store might block the request.

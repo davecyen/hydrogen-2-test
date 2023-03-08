@@ -669,12 +669,14 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+
 @media (min-width: 640px) {
 
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
 @media (min-width: 768px) {
 
   .md\:grid-cols-3 {
@@ -693,6 +695,7 @@ video {
     padding: 2rem;
   }
 }
+
 @media (min-width: 1024px) {
 
   .lg\:grid-cols-4 {
